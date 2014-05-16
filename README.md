@@ -1,11 +1,30 @@
 pytranslator
 ============
 
-CLI based translator for quick translation within the terminal 
+CLI based translator for quick translation to english within the terminal
 
 Dependencies:
 =============
 * goslate
-     install it by :
-          pip install goslate
+ 
+install it by :
 
+     $pip install goslate
+
+Working:
+========
+
+* You can run it as :
+
+     $python main.py arg1 arg2 arg3
+     
+it fetches you translation directly or by the conventional method
+
+     $python main.py
+     Enter the text to be translated: (your text)
+     (translated text to english)
+
+API Used:
+=========
+
+I have used goslate python module which is a free google translate api for python.
