@@ -16,6 +16,7 @@ Working:
 
 * You can run it as :
 
+
      $python main.py arg1 arg2 arg3
      
 it fetches you translation directly or by the conventional method
@@ -25,6 +26,7 @@ it fetches you translation directly or by the conventional method
      (translated text to english)
 
 * You can also use it for transalting bulk text using pipes as:
+
 
 	$cat sample.txt | python main.py
 
