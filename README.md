@@ -24,6 +24,11 @@ it fetches you translation directly or by the conventional method
      Enter the text to be translated: (your text)
      (translated text to english)
 
+* You can also use it for transalting bulk text using pipes as:
+
+	$cat sample.txt | python main.py
+
+
 API Used:
 =========
 
